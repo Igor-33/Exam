@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
     printf("Vvediti nomer mesatsa:");
       scanf("%d", &N);
     
-    if (N <= 2, N == 12) {
+    if (N <= 2) {
        printf("winter\n");
   }   
     if (N > 2 && N <= 5) {
@@ -21,8 +21,8 @@ int main(int argc, char *argv[]) {
     if (N > 8 && N <= 11) {
        printf("autumn\n");
   }
-    if (N > 12) {
-      printf("Net takogo mesitsa\n");
+    if (N == 12) {
+      printf("winter\n");
   }
     system("PAUSE");
     return 0;
